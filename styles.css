@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 页面布局 */
+
+.page {
+  margin: 0 auto;
+  max-width: 42em;
+  padding: 0 5% 30px;
+  width: 90%;
+  background: url("image/background.jpg")
+}
+/* 图片样式 */
+img {
+  max-width: 100%; /* 确保图片不超出容器宽度 */
+  height: auto; /* 保持图片比例 */
+}
+
+/* 页头 */
+.header {
+  padding-bottom: 1em;
+  font-family: 'Gentium Basic', serif;
+}
+.header h1 {
+  margin: 0;
+  font-size: 4rem;
+  color: #444;
+  font-weight: normal;
+  line-height: 1.2;
+}
+.header h1 a {
+  text-decoration: none;
+  color: #444;
+}
+.header h1 a:hover {
+  color: #222;
+}
+.header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding-left: 1em;
+  color: #666;
+}
+
+/* 文章主体 */
+.article {
+  line-height: 1.75;
+}
+.article h1 {
+  font-size: 2rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.article h2 {
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.article h3 {
+  font-size: 1.25rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.article p {
+  text-indent: 2em;
+  text-align: justify;
+  margin: 0 0 1em;
+}
+.article a {
+  color: inherit;
+  text-decoration: underline;
+}
+.article a:visited {
+  color: inherit;
+}
+.article a:hover {
+  color: black;
+}
+
+/* 代码块 */
+.article pre {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: solid 0.5em #ddd;
+  background: #f9f9f9;
+  font-family: "Menlo", "Monaco", "Consolas", "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", monospace;
+  overflow-x: auto;
+}
+.article code {
+  color: #555;
+  background: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+/* 引用块 */
+.article blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: solid 0.5em #ddd;
+  color: #555;
+  font-style: italic;
+}
+.article blockquote p {
+  text-indent: 0;
+}
+
+/* 页脚 */
+.footer {
+  padding-top: 4em;
+  text-align: right;
+  color: #999;
+  font-size: 0.9rem;
+}
